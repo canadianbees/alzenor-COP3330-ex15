@@ -10,6 +10,7 @@ public class Login
 {
     String password;
 
+    //get password from user
     public Login()
     {
         Scanner input = new Scanner(System.in);
@@ -19,12 +20,14 @@ public class Login
 
     public void PassCheck()
     {
+        //if password matches
         if(this.password.matches("abc!123"))
         {
             System.out.print("Welcome!");
             return;
         }
 
+        //if it doesn't
         System.out.print("Invalid password....");
 
     }
