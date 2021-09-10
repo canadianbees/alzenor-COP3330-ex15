@@ -8,7 +8,9 @@ public class Main
 {
     public static void main( String[] args )
     {
+        //gets password from user
         Login computer = new Login();
+        //checks if password matches
         computer.PassCheck();
     }
 }
